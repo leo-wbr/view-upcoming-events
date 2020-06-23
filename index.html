@@ -133,15 +133,17 @@
         }
 
         .card {
-            min-width: 15rem;
+            min-width: 15rem; /*Needed for the cards to act more responsively*/
             background-image: url('https://source.unsplash.com/random/600x300');
             background-size: cover;
         }
 
+        /* When there's only one card it'll max it to 50% width*/
         .card:only-child {
             max-width: 50% !important;
         }
 
+        /* kicks it back to 100% when it gets to the breakpoint*/
         @media(max-width:550px) {
             .card:only-child {
                 max-width: 100% !important;
