@@ -127,65 +127,260 @@
                 </div>
             </div>
         </header>
+        <style>
+        .bg-darken {
+            box-shadow: inset 10000px 0 0 rgba(0, 0, 0, 0.6);
+        }
+
+        .card {
+            /*min-width: 9rem;*/
+            background-image: url('https://source.unsplash.com/random/600x300');
+            background-size: cover;
+        }
+
+        .card:only-child {max-width:50% !important;}
+        @media(max-width:550px){.card:only-child {max-width:100% !important;}}
+
+
+        </style>
         <div id="eco-page-content">
-        </div>
-        <!-- <div id="eco-logo-carousel">
+            <!-- 1 Column Card -->
             <div class="container-fluid">
-                <section id="slider1" class="slider my-1 py-1">
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/abstract-logo-templates-collection_1346-11.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/symetrical-business-logo_1025-939.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/symetrical-business-logo_1025-939.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/m-letter-logo-template_1061-150.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/gradient-abstract-logo-template_23-2148157339.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/abstract-silhouette-sport-logo-flat-design_23-2148216854.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/abstract-logo-flame-shape_1043-44.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/phoenix-logo-concept_23-2148512175.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/colorful-market-logo-with-gradient_23-2148472540.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/gradient-abstract-company-logo-template_23-2148233809.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/letter-triangle-flyng-plane-logo_92675-81.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/logo-template-with-abstract-shapes_23-2148258241.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/gradient-tridimensional-abstract-company-logo_52683-12660.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/panda-bear-silhouette-logo-design-template-funny-lazy-animal-logotype-concept-icon_126523-622.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/logo-made-with-abstract-outlined-shape_1061-199.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/delivery-logo-template-with-gradient-effect_23-2147884164.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/growing-plant-logo-negative-space-style_126523-484.jpg?size=626&ext=jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/logo-template-background_1390-55.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/logo-template-with-abstract-shapes_23-2148258242.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/logo-template-coffee-business-design_23-2148512021.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/letter-s-shield-logo-template_25167-97.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/coloured-logo-template-design_1222-37.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/gradient-logo-template-with-abstract-shape_52683-16958.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/flat-gradient-nature-concept-logotype_52683-13458.jpg"></a></div>
-                </section>
-                <section id="slider2" class="slider my-1 py-1">
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/phoenix-logo-concept_23-2148512175.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/symetrical-business-logo_1025-939.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/m-letter-logo-template_1061-150.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/gradient-abstract-logo-template_23-2148157339.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/abstract-silhouette-sport-logo-flat-design_23-2148216854.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/abstract-logo-flame-shape_1043-44.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/logo-template-with-abstract-shapes_23-2148258241.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/letter-s-shield-logo-template_25167-97.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/coloured-logo-template-design_1222-37.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/gradient-tridimensional-abstract-company-logo_52683-12660.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/colorful-market-logo-with-gradient_23-2148472540.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/gradient-abstract-company-logo-template_23-2148233809.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/letter-triangle-flyng-plane-logo_92675-81.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/abstract-logo-templates-collection_1346-11.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/symetrical-business-logo_1025-939.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/panda-bear-silhouette-logo-design-template-funny-lazy-animal-logotype-concept-icon_126523-622.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/logo-made-with-abstract-outlined-shape_1061-199.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/delivery-logo-template-with-gradient-effect_23-2147884164.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/growing-plant-logo-negative-space-style_126523-484.jpg?size=626&ext=jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/logo-template-background_1390-55.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/logo-template-with-abstract-shapes_23-2148258242.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/logo-template-coffee-business-design_23-2148512021.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/gradient-logo-template-with-abstract-shape_52683-16958.jpg"></a></div>
-                    <div class="slide"><a href="#"><img src="https://img.freepik.com/free-vector/flat-gradient-nature-concept-logotype_52683-13458.jpg"></a>
+                <div class="row d-block my-5">
+                    <h2 class="text-center">1 Column Cards layout</h2>
+                </div>
+                <div class="card-deck mx-auto">
+                    <div class="card bg-darken text-center mb-2 mx-auto">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
                     </div>
-                </section>
+                </div>
             </div>
-        </div> -->
+            <!-- 2 Column Card -->
+            <div class="container-fluid">
+                <div class="row d-block my-5">
+                    <h2 class="text-center">2 Column Cards layout</h2>
+                </div>
+                <div class="card-deck">
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 3 Column Card -->
+            <div class="container-fluid">
+                <div class="row d-block my-5">
+                    <h2 class="text-center">3 Column Cards layout</h2>
+                </div>
+                <div class="card-deck">
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 4 Column Card -->
+            <div class="container-fluid">
+                <div class="row d-block my-5">
+                    <h2 class="text-center">4 Column Cards layout</h2>
+                </div>
+                <div class="card-deck">
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 5 Column Card -->
+            <div class="container-fluid">
+                <div class="row d-block my-5">
+                    <h2 class="text-center">5 Column Cards layout</h2>
+                </div>
+                <div class="card-deck">
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                    <div class="card bg-darken text-center mb-2">
+                        <div class="card-header bg-dark">
+                            <h5 class="text-white">August 4-7, 2020</h5>
+                        </div>
+                        <div class="card-body py-5 text-white">
+                            <h3 class="card-title text-white">eTail Virtual Event</h3>
+                            <p class="card-text mb-0">Extra Copy if needed</p>
+                            <p class="small font-weight-bold">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                        <div class="card-footer bg-dark">
+                            <a href="#" class="btn btn-primary">More Info</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--  -->
+        </div>
         <footer class="bg-dark mt-5">
             <div class="container">
                 <div class="row py-4">
